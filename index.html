@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Tito" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio oficial de Burgers Crazy Bull" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="ico" href="burgers_cafe.ico" type="image/x-icon">
+    <title>Burgers Crazy Bull</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="header__h1">Burgers Crazy Bull</h1>
+      <nav class="header__nav">
+        <ul class="header__ul">
+          <li>
+            <a href="#menu">Menú</a>
+          </li>
+          <li>
+            <a href="hours.html">Horarios</a>
+          </li>
+          <li>
+            <a href="contact.html">Contacto</a>
+          </li>
+          <li>
+            <a href="about.html">Acerca</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2 class="hero__h2">Bienvenidos!</h2>
+      <figure>
+        <img
+          src="img/hamburguesa_y_patatas_400x267.jpg"
+          alt="Hamburguesa y patatas"
+          title="Hamburguesa con patatas de corte fino"
+          width="1000"
+          height="667"
+        />
+        <figcaption class="offscreen">Hamburguesa y patatas</figcaption>
+      </figure>
+    </section>
+
+    <main class="main">
+      <!-- Nuestro contenido -->
+      <article id="menu" class="main__article menu">
+        <h2 class="menu__h2">Nuestro Menú</h2>
+        <table class="menu__container">
+          <caption class="offscreen">Nuestras hamburguesas</caption>
+          <thead>
+                <tr>
+                    <th class="menu__header">Hamburguesa</th>
+                    <th class="menu__header" scope="col">Cant.</th>
+                    <th class="menu__header" scope="col">Precio</th>
+                </tr>
+          </thead>
+          <tbody>
+                <tr>
+                    <th class="menu__item menu__ba">BACON</th>
+                    <td class="menu__item">1</td>
+                    <td class="menu__item">7.19€</td>
+                </tr>
+                <tr>
+                  <th class="menu__item menu__fi">FILADELPHIA</th>
+                  <td class="menu__item">1</td>
+                  <td class="menu__item">8.50€</td>
+                </tr>
+                <tr>
+                  <th class="menu__item menu__pi">PICANTE</th>
+                  <td class="menu__item">1</td>
+                  <td class="menu__item">6.35€</td>
+                </tr>
+                <tr>
+                    <th class="menu__item menu__min"scope="row" rowspan="3">Mini Burgers</th>
+                    <td class="menu__item">1</td>
+                    <td class="menu__item">2.75€</td>
+                </tr>
+                <tr>
+                  <td class="menu__item">2</td>
+                  <td class="menu__item">5.50€</td>
+                </tr>
+                <tr>
+                  <td class="menu__item">3</td>
+                  <td class="menu__item">8.05€</td>
+                </tr>                             
+          </tbody>
+          <tfoot>
+                <tr>
+                  <td class="menu__item menu__pa" colspan="3">Patas &amp; Salsa 1€</td>
+                </tr>
+          </tfoot>
+        </table>
+      
+        <p class="center">
+          <a href="#">Regresar arriba</a>
+        </p>
+      </article>
+    </main>
+    <hr>
+    <footer class="footer">
+      <p>
+       <span class="nowrap">Copyright &copy;</span>
+       <span class="nowrap">Burgers Crazy Bull</span>
+      </p>
+    </footer>
+  </body>
+</html>
